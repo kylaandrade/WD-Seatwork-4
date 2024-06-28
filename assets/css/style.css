@@ -36,7 +36,7 @@ video {
   object-fit:cover;
   width: 100vw;
   height: 100vh;
-  opacity: 60%;
+  opacity: 58%;
 }
 
 .container {
@@ -119,7 +119,7 @@ video {
         i.bi-github,
         i.bi-envelope {
           transform: translateY(0);
-          color: #99ff00;
+          color: #78ff39;
         }
       }
     }
@@ -137,14 +137,14 @@ video {
 }
 
 h1 {
-  color: #99ff00;
+  color: #78ff39;
   font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
 h2 {
-  color: #99ff00;
+  color: #78ff39;
   font-size: 2.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -164,7 +164,7 @@ p {
   display: inline-block;
   padding: 10px 20px;
   margin: 10px;
-  background-color: #99ff00;
+  background-color: #78ff39;
   color: #283a1a;
   text-decoration: none;
   border-radius: 5px;
@@ -188,7 +188,7 @@ p {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #99ff00;
+    background-color: #78ff39;
     color: #283a1a;
     text-decoration: none;
     border-radius: 5px;
