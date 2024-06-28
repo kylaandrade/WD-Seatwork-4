@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h1 * {
+  font-family: "Merriweather", serif;
+}
+
+h2,
+h2 * {
+  font-family: "Merriweather", serif;
+}
+
+
+body, html {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+video {
+  position:absolute;
+  z-index: -1;
+  object-fit:cover;
+  width: 100vw;
+  height: 100vh;
+  opacity: 70%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150%;
+  width: 200%;
+}
+
+.bichon {
+  max-width: 100%;
+  max-height: 35%;
+  margin-right: 10px;
+  margin-bottom: -70px;
+  object-fit: cover;
+  position: relative;
+  height: 45%;;
+}
+
+.cleo {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+.title {
+  position: absolute;
+  top: .1rem;
+  left: 1rem;
+  height: 140px;
+}
+
+.paw {
+  height: clamp(5rem, 5vw, 3rem);
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: clamp(1rem, 1vw, 2rem);
+  right: clamp(1rem, 1vw, 2rem);
+  gap: 0.5rem;
+
+      a {
+        text-decoration: none;
+        position: relative;
+        z-index: 2;
+      }
+
+      i {
+        font-size: 1.5rem;
+        position: relative;
+        display: flex;
+
+        &.bi-github {
+          transform: translateY(-3.5rem);
+          transition: all 0.4s ease;
+          color: transparent;
+        }
+
+        &.bi-envelope {
+          transform: translateY(-3.5rem);
+          transition: all 0.4s ease;
+          color: transparent;
+        }
+      }
+
+      &:hover {
+        .paw {
+          transform: rotateZ(360deg);
+        }
+
+        i.bi-github,
+        i.bi-envelope {
+          transform: translateY(0);
+          color: #fffb0fd0;
+        }
+      }
+    }
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  width: 70%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: -300px;
+}
+
+h1 {
+  color: #fffb0fd0;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: #fffb0fd0;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.page-one {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #fffb0fd0;
+  color: #283a1a;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.page-one:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 10px #283a1a, 0 0 10px rgb(255, 255, 255);
+  outline-color: rgb(255, 255, 255);
+  outline-offset: 5px;
+  text-shadow: 1px 1px 2px #ffffff;
+  transform: scale(1.1);
+  animation: pop 0.3s ease-in-out;
+}
+
+.page-two {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #fffb0fd0;
+    color: #283a1a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .page-two:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 10px #283a1a, 0 0 10px rgb(255, 255, 255);
+    outline-color: rgb(255, 255, 255);
+    outline-offset: 5px;
+    text-shadow: 1px 1px 2px #ffffff;
+    transform: scale(1.1);
+    animation: pop 0.3s ease-in-out;
+  }
+
+@keyframes pop {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+}
+
