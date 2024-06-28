@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kylaandrade/">
-    <img src="./assets/img/bichon-pic.png alt="Bichon" width="200" height="200">
+    <img src="./assets/img/bichon-pic.png" alt="Bichon" width="200" height="200">
   </a>
   <h3 align="center">Seatwork 4: Feature Pages</h3>
 </div>
