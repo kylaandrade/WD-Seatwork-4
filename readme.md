@@ -10,7 +10,7 @@
   <h3 align="center">Seatwork 4: Feature Pages</h3>
 </div>
 <div align="center">
-  This is for demonstrating skills in HTML and CSS with Multiple Pages, Effects and Container Manipulations. Providing a Different Versions of Feature Pages.</p>
+  This is for demonstrating skills in HTML and CSS with Multiple Pages, Effects and Container Manipulations. Providing Different Layouts of Feature Pages.</p>
   This aims to showcase 2 feature pages to demonstrate different feature layouts, created using pure HTML and CSS.
 </div>
 
