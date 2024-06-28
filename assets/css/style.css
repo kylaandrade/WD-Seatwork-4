@@ -54,8 +54,22 @@ video {
   margin-bottom: -70px;
   object-fit: cover;
   position: relative;
-  height: 45%;;
+  height: 45%;
+  animation: bounce 2s ease-in-out infinite;
 }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 .cleo {
   width: 60%;
@@ -70,6 +84,11 @@ video {
   top: .1rem;
   left: 1rem;
   height: 140px;
+}
+
+.title:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
 }
 
 .paw {
