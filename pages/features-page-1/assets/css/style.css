@@ -369,7 +369,7 @@ footer {
     padding: 1rem 0;
 }
 
-.back-to-top {
+.back-to-landing {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -380,12 +380,12 @@ footer {
     transition: transform 0.3s, background-color 0.3s;
 }
 
-.back-to-top img {
+.back-to-landing img{
     width: 30px;
     height: 30px;
 }
 
-.back-to-top:hover {
+.back-to-landing:hover {
     background-color: #d7a718;
     transform: scale(1.1);
 }

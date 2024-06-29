@@ -1,0 +1,389 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EFB07D;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFB07D;
+    padding: 0.5em;
+}
+
+nav .logo img {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav .logo img:hover {
+    transform: scale(1.1);
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+nav .nav-links li {
+    margin: 0 1em;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav .nav-links a:hover {
+    color: #1f0e01;
+}
+
+nav .nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+nav .cta {
+    background-color: #FF933B;
+    border: none;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 550;
+    transition: background-color 0.3s;
+}
+
+nav .cta:hover {
+    background-color: #ffdd33;
+}
+
+nav .nav-icons img {
+    width: 32px;
+    margin-left: 1em;
+    cursor: pointer;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+@keyframes rotateIcon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+nav .nav-icons img:hover {
+    animation: rotateIcon 0.5s ease-in-out; 
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    background: #f4f4f4;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    font-size: 40px;
+    color: #FF933B;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.hero-text:hover {
+    transform: scale(1.1);
+    color: #FDC36F;
+}
+
+.features {
+    padding: 3em 1em;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 30px;
+    color: #fff;
+}
+
+.why-choose-us {
+    background-color: #EFB07D;
+    padding-top: 0;
+}
+
+.why-choose-us .grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.why-choose-us .box {
+    width: 200px;
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    border: 1.5px solid #DC7B5E;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(255, 244, 40, 0.96);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.why-choose-us .box:hover {
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.why-choose-us .box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5em;
+}
+
+.why-choose-us .box h3 {
+    margin: 0.5em 0;
+    color: #FF933B;
+}
+
+.why-choose-us .box p {
+    color: #333;
+}
+
+.shop-for {
+    background-color: #F7F7F7;
+}
+
+.shop-for h2 {
+    color: #FF933B;
+    margin-top: 15px;
+}
+
+.shop-for .circles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shop-for .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.shop-for .circle img {
+    width: 100%;
+    height: auto;
+}
+
+.shop-for .circle:hover {
+    transform: scale(1.15);
+    box-shadow: 0 8px 16px #f3c6a1;
+}
+
+.top-products {
+    background-color: #EFB07D;
+}
+
+.services {
+    background-color: #f4f4f4;
+}
+
+.about {
+    background-color: #EFB07D;
+}
+
+.contact {
+    background-color: #f4f4f4;
+}
+
+.top-products .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.top-products .card {
+    width: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.top-products .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.top-products .card img {
+    width: 100%;
+    height: auto;
+}
+
+.top-products .card button {
+    background-color: #FF933B;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.top-products .card:hover button {
+    bottom: 0;
+}
+
+.top-products .card button:hover {
+    background-color: #ffdd57;
+    color: #333;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services h2 {
+    color: #FF933B;
+    font-size: 30px;
+}
+
+.services .card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.services .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.services .card img {
+    width: 150%;
+    height: auto;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3em 1em;
+}
+
+.about h2 {
+    font-size: 30px;
+    color:#fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about p {
+    max-width: 800px;
+    font-size: 20px;
+    text-align: left;
+    color:#fff;
+    font-weight: 500;
+}
+
+.contact {
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: #FF933B;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input,
+.contact form textarea {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    padding: 1em;
+    border: none;
+    background-color: #FF933B;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #ffdd57;
+    color: #333;
+}
+
+footer {
+    background-color: #EFB07D;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: .1rem 0;
+}
+
+.back-to-landing {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FF933B;
+    border-radius: 50%;
+    padding: 0.5rem;
+    z-index: 1000;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.back-to-landing img{
+    width: 30px;
+    height: 30px;
+}
+
+.back-to-landing:hover {
+    background-color: #ffdd57;
+    transform: scale(1.1);
+}
