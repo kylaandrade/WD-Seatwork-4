@@ -53,6 +53,8 @@
 Project demonstrate the coding of HTMl and CSS in different layouts of feature pages in addition of animations. This is to have hands-on experience in coding and having an actual output.
 
 ### Key Components
+- Landing Page
+  - Overview and Navigation to the feature pages.
 - Feature Pages
   - Different Layouts and Themes
   - Hover Animations
