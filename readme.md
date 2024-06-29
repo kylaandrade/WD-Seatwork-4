@@ -104,3 +104,9 @@ WD-ProjectName
 | Bichon | Picture for Landing Page | https://www.canva.com |
 | Paw | Icon for Landing Page | https://www.canva.com |
 | Paws & Play | Logo for Landing Page | https://www.canva.com |
+| Paws & Play | Logo for Feature Page 1 | https://www.canva.com |
+| Paws Video | Background for Feature Page 1 | https://www.canva.com |
+| Images and Icons | For Feature Page 1 | https://www.canva.com |
+| Paws & Shop | Logo for Feature Page 2 | https://www.canva.com |
+| Cats Image | Background Image for Feature Page 2 | https://www.canva.com |
+| Images and Icons | For Feature Page 2 | https://www.canva.com |
