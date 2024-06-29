@@ -7,7 +7,7 @@
   <a href="https://github.com/kylaandrade/">
     <img src="./assets/img/bichon-pic.png" alt="Bichon" width="200" height="200">
   </a>
-  <h3 align="center">Seatwork 4: Feature Pages</h3>
+  <h3 align="center">Seatwork 4: Feature Display</h3>
 </div>
 <div align="center">
   This is for demonstrating skills in HTML and CSS with Multiple Pages, Effects and Container Manipulations. Providing Different Layouts of Feature Pages.</p>
