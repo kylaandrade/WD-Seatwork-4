@@ -55,6 +55,7 @@ Project demonstrate the coding of HTMl and CSS in different layouts of feature p
 ### Key Components
 - Feature Pages
   - Different Layouts and Themes
+  - Hover Animations
 
 
 ### Technology
