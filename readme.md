@@ -112,3 +112,5 @@ WD-ProjectName
 | Paws & Shop | Logo for Feature Page 2 | https://www.canva.com |
 | Cats Image | Background Image for Feature Page 2 | https://www.canva.com |
 | Images and Icons | For Feature Page 2 | https://www.canva.com |
+| Capstone Demo | Logo for Incentives Page | https://www.canva.com |
+| Icons | For Incentives Page | https://www.canva.com |
